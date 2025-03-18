@@ -1,6 +1,7 @@
 # CS302Final
 
-This project implements a differentiable Material Point Method (MPM) simulation using the Taichi programming language. 
+## Overview
+This project explores the development of a Material Point Method (MPM) simulation locomotion using DiffTaichi, a differentiable physics simulation framework. By applying geometric modifications, optimization algorithms, and adaptive control strategies, a simulated soft-body structure that can move more efficiently and autonomously was developed. 
 
 ## Features
   Taichi-based Differentiable MPM: Implements MPM with automatic differentiation for optimization.
@@ -19,3 +20,10 @@ This project implements a differentiable Material Point Method (MPM) simulation 
     compute_loss(): Computes differentiable loss for optimization.
   Scene Definition: Defines robots and particles with solid and actuator elements.
   Visualization: Uses Taichi GUI to render the simulation.
+
+## Results & Observations
+
+Structural Modifications: Improved stability and ground interaction.
+Optimization: Enhanced forward motion by refining actuation parameters.
+Control Strategies: Open-loop control enabled rhythmic movement, while closed-loop control allowed for adaptive responses to disturbances.
+Computational Considerations: Balancing accuracy and efficiency was key to effective simulation performance.
