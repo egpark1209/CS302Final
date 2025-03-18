@@ -3,6 +3,13 @@
 ## Overview
 This project explores the development of a Material Point Method (MPM) simulation locomotion using DiffTaichi, a differentiable physics simulation framework. By applying geometric modifications, optimization algorithms, and adaptive control strategies, a simulated soft-body structure that can move more efficiently and autonomously was developed. 
 
+## Installation Requirements
+
+Python 3.8+
+Taichi
+NumPy
+Matplotlib
+
 ## Features
   Taichi-based Differentiable MPM: Implements MPM with automatic differentiation for optimization.
   Actuation and Control: Supports sinusoidal and feedback-based actuation for shape and locomotion design.
